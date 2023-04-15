@@ -1,0 +1,87 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.fa-solid,
+.fab{
+    color: #444444;
+}
+
+.carousel,
+.carousel-inner.active,
+.carousel-item {
+    height: 100vh
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+nav,
+.nav-item,
+.nav-link {
+    color: #333333;
+    font-weight: 600;
+}
+
+.active,
+.nav-box:hover > a > i,
+.nav-box:hover > a,
+.nav-box.active > a > i,
+.nav-box.active > a,
+.nav-link:active,
+.nav-link:hover {
+    color: #93DEFF;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.title {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.quote{
+    background-color: #F7F7F7;
+}
+
+button.btn.btn-primary,
+.btn.btn-outline-success{
+    border:none;
+    font-weight: 700;
+    background-color: #5dceff;
+    color:white
+}
+
+button.btn.btn-primary:hover,
+.btn.btn-outline-success:hover{
+    background-color: #93DEFF;
+}
+
+div.card-body p#ekstra {
+    color: #6c757d;
+    margin-top: -0.5rem;
+}
+
+div span#prestasi{
+    color: #6c757d;
+}
